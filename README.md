@@ -1,14 +1,26 @@
-# india_docs_verify
+<h1>Indian Docs Verify</h1>
+A Flutter Package to verify indian goverment docs, using regex so that you need not waste time searching for a correct one.
+<hr.>
 
-A new Flutter package project.
+<h2>Verify Phone</h2>
 
-## Getting Started
+    bool isIndianPhone =  IndianDocsVerify.isIndianPhoneNumber("9992223333");
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+    print(isIndianPhone);
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+<h2>Verify Aadhar Card</h2>
+
+    bool isAadharCard =  IndianDocsVerify.isAadharCard("1234 5678 9123");
+
+    print(isAadharCard);
+
+<h2>Verify PANCard</h2>
+
+    bool isPAN =  IndianDocsVerify.isPAN("ALWPG5809L");
+    print(isPAN);
+
+<p>Similarly You can also verify this for Driver's License and Voter ID</p>
+<hr>
+
+TODO:
+UI BASED INPUT

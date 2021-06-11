@@ -1,8 +1,7 @@
 name: india_docs_verify
-description: A new Flutter package project.
+description: A Dart / Flutter Package To Verify all India Related Documents , Such has Aadhar Card , PAN Card , etc.
 version: 0.0.1
-homepage:
-
+homepage: https://github.com/nitishpatel/india_docs_verify
 environment:
   sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.17.0"

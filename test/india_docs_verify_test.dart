@@ -3,10 +3,10 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:india_docs_verify/india_docs_verify.dart';
 
 void main() {
-  test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
-  });
+  bool isIndianPhone = IndianDocsVerify.isIndianPhoneNumber("9992223333");
+  print(isIndianPhone);
+  bool isAadharCard = IndianDocsVerify.isAadharCard("1234 5678 9123");
+  print(isAadharCard);
+  bool isPAN = IndianDocsVerify.isPAN("ALWPG5809L");
+  print(isPAN);
 }
